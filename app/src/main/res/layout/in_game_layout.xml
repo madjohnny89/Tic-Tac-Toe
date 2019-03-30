@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+     >
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="339dp"
+        android:layout_height="300dp"
+        android:contentDescription="@string/lets_go"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36"
+        app:srcCompat="@drawable/logo" />
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/board"
+        android:padding="10dp"
+        app:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77"
+        app:rowCount="3">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img1"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:alpha="0"
+            android:onClick="dropDown"
+            android:padding="5dp"
+            android:tag="0"
+            android:src="@mipmap/ic_launcher" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:alpha="0"
+            android:onClick="dropDown"
+            android:padding="5dp"
+            android:tag="1"
+            android:src="@mipmap/ic_launcher" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:alpha="0"
+            android:onClick="dropDown"
+            android:padding="5dp"
+            android:tag="2"
+            android:src="@mipmap/ic_launcher" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img4"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:alpha="0"
+            android:onClick="dropDown"
+            android:padding="5dp"
+            android:tag="3"
+            android:src="@mipmap/ic_launcher" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img5"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:alpha="0"
+            android:onClick="dropDown"
+            android:padding="5dp"
+            android:tag="4"
+            android:src="@mipmap/ic_launcher" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img6"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:alpha="0"
+            android:onClick="dropDown"
+            android:padding="5dp"
+            android:tag="5"
+            android:src="@mipmap/ic_launcher" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img7"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:alpha="0"
+            android:onClick="dropDown"
+            android:padding="5dp"
+            android:tag="6"
+            android:src="@mipmap/ic_launcher" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img8"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:alpha="0"
+            android:onClick="dropDown"
+            android:padding="5dp"
+            android:tag="7"
+            android:src="@mipmap/ic_launcher" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img9"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:alpha="0"
+            android:onClick="dropDown"
+            android:padding="5dp"
+            android:tag="8"
+            android:src="@mipmap/ic_launcher" />
+
+
+    </android.support.v7.widget.GridLayout>
+
+</android.support.constraint.ConstraintLayout>

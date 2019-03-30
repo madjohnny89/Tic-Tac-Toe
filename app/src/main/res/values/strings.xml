@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tac Tac Toe</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="snap">SNAP</string>
+    <string name="lets_go">Lets Go!</string>
+</resources>
